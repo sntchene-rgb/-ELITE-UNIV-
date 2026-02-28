@@ -1,0 +1,40 @@
+name: elite_univ_mobile
+description: المنصة الأكاديمية السيادية للتعليم العالي والبحث العلمي
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management & Routing
+  flutter_riverpod: ^2.4.3
+  go_router: ^12.1.1
+  
+  # UI & Styling
+  google_fonts: ^6.1.0
+  lucide_icons: ^1.0.0
+  fl_chart: ^0.65.0
+  
+  # Utilities
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  qr_flutter: ^4.1.0
+  pdf: ^3.10.8
+  printing: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
+  #   - assets/fonts/
